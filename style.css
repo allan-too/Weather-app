@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(62, 16, 214);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+.container{
+    display: flex;    align-items: center;
+    flex-direction: column;
+    background-color: rgb(86, 56, 84);
+    padding: 50px;
+    border-radius: 20px;
+    height: 100vh;
+}
+input[type="text"]{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}   
+input[type="text"]:focus{
+    border-color: rgb(163, 40, 81);
+    outline: none;
+    box-shadow: 0 0 5px rgb(179, 37, 37);
+}
+button[type="submit"]{
+    background-color: rgb(133, 116, 122);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button[type="submit"]:hover{
+    background-color: rgb(188, 37, 80);
+    color: white;
+}
+button[type="submit"]:active{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.hidden{
+    background-color: rgb(145, 141, 145);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    color: rgb(32, 30, 30);
+    margin-top: 10px;
+}
+
